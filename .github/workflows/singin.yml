@@ -17,3 +17,4 @@ jobs:
           PUSH_TYPES: 'pushplus'
           DO_NOT_REWARD: 'false'
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
